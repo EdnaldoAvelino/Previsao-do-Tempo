@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+div {
+    background-color: #000000;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 100px);
+}
+
+input::placeholder {
+    font-size:20px;
+}
+
+input:hover {
+    background-color:#7c7c7c6b ;
+}
+
+.lupa {
+    height: 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+
+}
+
+.nuven {
+    background-color: transparent;
+    margin-right: 15px;
+    margin-left: -10px ;
+    
+}
+
+.caixa-maior {
+    background-color: #000000;
+    width: 95%px;
+    max-width: 400px;
+    opacity: 0.8;
+    padding: 20px;    
+    border-radius: 20px;  
+}
+
+.caixa-media {
+    margin-top: 20px;
+}
+
+.temp {
+    color: #ffff;
+    
+}
+
+.caixa-menor {
+    display: flex;
+}
+
+.umidade {
+    color: #ffff;
+}
+
+.descricao {
+    text-transform: capitalize;
+    color: #ffff;
+    margin-top: 30px;
+    margin-bottom:30px ;
+
+}
